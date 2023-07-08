@@ -1,0 +1,36 @@
+{
+  "name": "load-get-csv-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/tests/*.js",
+    "dev": "nodemon --exec sucrase-node server.js",
+    "lint": "eslint --ext .js src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fast-csv": "^4.3.6",
+    "mongoose": "^7.3.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0-alpha.1",
+    "mocha": "^10.2.0",
+    "mongodb-memory-server": "^8.13.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^3.0.0",
+    "sucrase": "^3.32.0"
+  }
+}
