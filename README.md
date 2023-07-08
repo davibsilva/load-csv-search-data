@@ -42,7 +42,7 @@ The following tools was used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Before we start :checkered_flag:, you need have [Git](https://git-scm.com), [Node](https://nodejs.org/en/), [Docker](https://www.docker.com/get-started/) and [Docker Compose](https://docs.docker.com/compose/) intalled.
+Before we start :checkered_flag:, you need have [Git](https://git-scm.com), [Node](https://nodejs.org/en/), [Docker](https://www.docker.com/get-started/) and [Docker Compose](https://docs.docker.com/compose/) installed.
 
 ## :checkered_flag: Instructions to test the API ##
 
