@@ -48,4 +48,33 @@ Before we start :checkered_flag:, you need have [Git](https://git-scm.com), [Nod
 
 ```bash
 # Clone the project
-$ git clone 
+$ git clone https://github.com/davibsilva/load-csv-search-data.git
+
+# Change to repository directory
+$ cd load-csv-search-data
+
+# Install dependencies
+$ npm install
+
+# Create a .env file on project root
+
+# Copy the .env.template content on project root and paste in created .env file(It must be necessary to test the API)
+Example:
+PORT=3000
+MONGO_DB_HOSTNAME=db
+
+# Run API
+$ npm run start-api
+
+# Wait some seconds and the server will be available in: <http://localhost:3000>
+```
+
+## :memo: License ##
+
+This project is under lincense from MIT.
+
+
+Made with :heart: by <a href="https://github.com/davibsilva" target="_blank">Davi V. Barbosa Silva</a>
+&#xa0;
+
+<a href="#top">Back to top</a>

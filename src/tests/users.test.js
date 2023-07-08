@@ -1,18 +1,12 @@
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
-import { before, after } from 'mocha';
+import { describe, it } from 'mocha';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
-
-import {
-  startMongoDBMock,
-  stopMongoDBMock,
-} from './config/mock-mongodb-setup.js';
 import { filesService } from '../services/files.service.js';
 import { usersService } from '../services/users.service.js';
 
 const { expect } = chai;
-let mongoServer;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 

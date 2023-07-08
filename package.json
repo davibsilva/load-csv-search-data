@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha ./src/tests/*.js",
     "dev": "nodemon --exec sucrase-node server.js",
-    "lint": "eslint --ext .js src/"
+    "lint": "eslint --ext .js src/",
+    "start-api": "docker-compose up"
   },
   "keywords": [],
   "author": "",
